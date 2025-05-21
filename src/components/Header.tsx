@@ -2,12 +2,12 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 
-import logo from "../../public/logo.png";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="w-full bg-[#0a1522] py-4 border-b border-[#223043]">
-      <div className="relative container mx-auto px-4 flex justify-between items-center max-w-[1440px]">
+    <header className="w-full bg-[#0F172A] py-4 border-b border-[#223043]">
+      <div className="relative container mx-auto px-4 flex justify-between items-center max-w-[1400px]">
         <img src={logo} alt="Bluelink" className="h-8 sm:h-10 lg:h-12" />
         <nav className="hidden md:flex absolute left-1/2 transform -translate-x-1/2">
           <ul className="flex space-x-8">

@@ -12,7 +12,7 @@ interface ServiceCardProps {
 const ServiceCard = ({ icon, title, description, className }: ServiceCardProps) => {
   return (
     <div className={cn(
-      'bg-[#0b1623] border border-[#223043] rounded-lg p-6 flex flex-col gap-4 h-full',
+      'bg-gray-800/50 border border-gray-700 rounded-lg p-6 flex flex-col gap-4 h-full',
       className
     )}>
       <div className="bg-[#092b34] rounded-lg p-4 w-12 h-12 flex items-center justify-center text-teal-400">

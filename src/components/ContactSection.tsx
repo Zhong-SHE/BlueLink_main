@@ -2,78 +2,93 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import Badge from './ui/badge';
+
+import { MdOutlineLocationOn, MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 
 const ContactSection = () => {
   return (
-    <section className="w-full bg-[#0a1522] py-20 border-t border-[#223043]" id="contact">
-      <div className="container mx-auto px-4 max-w-[1440px]">
+    <section className="w-full bg-[#0F172A] py-20" id="contact">
+      <div className="container mx-auto px-4 max-w-[1400px]">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <Badge label="Contact Us" />
+          <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
             Get in Touch
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Ready to explore how blockchain can transform your business? Let's start a conversation.
+            Ready to unlock blockchain's potential for your business? Reach out to our team today.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-8">
             <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
             <form className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Input 
-                  type="text" 
-                  placeholder="Your Name" 
-                  className="bg-[#0b1623] border-[#223043] text-white placeholder:text-gray-500"
-                />
-                <Input 
-                  type="email" 
-                  placeholder="Your Email" 
-                  className="bg-[#0b1623] border-[#223043] text-white placeholder:text-gray-500"
+                <div className='text-[#D1D5DB]'>
+                  Full Name
+                  <Input
+                    type="text"
+                    placeholder="Your name"
+                    className="bg-[#374151]/50 border-[#4B5563] text-white placeholder:text-gray-500 mt-2"
+                  />
+                </div>
+                <div className='text-[#D1D5DB]'>
+                  Email Address
+                  <Input
+                    type="email"
+                    placeholder="your.email@example.com"
+                    className="bg-[#374151]/50 border-[#4B5563] text-white placeholder:text-gray-500 mt-2"
+                  />
+                </div>
+              </div>
+                <div className='text-[#D1D5DB]'>
+                Subject
+                <Input
+                  type="text"
+                  placeholder="How can we help you?"
+                  className="bg-[#374151]/50 border-[#4B5563] text-white placeholder:text-gray-500 mt-2"
                 />
               </div>
-              <Input 
-                type="text" 
-                placeholder="Subject" 
-                className="bg-[#0b1623] border-[#223043] text-white placeholder:text-gray-500"
-              />
-              <textarea 
-                placeholder="Your Message" 
-                rows={4}
-                className="w-full rounded-md bg-[#0b1623] border border-[#223043] px-3 py-2 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
-              ></textarea>
-              <Button className="bg-teal-500 hover:bg-teal-600 text-white w-full">
+                <div className='text-[#D1D5DB]'>
+                Message
+                <textarea
+                  placeholder="Tell us about your project..."
+                  rows={4}
+                  className="mt-2 w-full rounded-md bg-[#374151]/50 border-[#4B5563] px-3 py-2 text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                ></textarea>
+              </div>
+              <Button className="bg-teal-500 hover:bg-teal-600 text-black w-full">
                 Send Message
               </Button>
             </form>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-white mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
             <p className="text-gray-300 mb-8">
-              Our team is ready to answer any questions you may have about our blockchain solutions.
+              Have questions or want to discuss your blockchain project? Our team is ready to assist you.
             </p>
-            
+
             <div className="space-y-6">
               {[
-                { icon: "map-pin", label: "Address", value: "123 Blockchain Ave, San Francisco, CA 94103" },
-                { icon: "mail", label: "Email", value: "contact@bluelink.tech" },
-                { icon: "phone", label: "Phone", value: "+1 (555) 123-4567" },
-                { icon: "clock", label: "Hours", value: "Monday - Friday: 9AM - 6PM PST" }
-              ].map((item, idx) => (
-                <div key={idx} className="flex items-start gap-4">
-                  <div className="bg-[#092b34] rounded-lg p-3 text-teal-400 mt-1 shrink-0">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path>
-                    </svg>
+                { icon: MdOutlineMail, label: "Email Us", value: "Tech@bluelinkblockchain.com" },
+                { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
+                { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
+              ].map((item, idx) => {
+                const Icon = item.icon;
+                return (
+                  <div key={idx} className="flex items-start gap-4">
+                    <div className="bg-[#092b34] rounded-lg p-3 text-teal-400 mt-1 shrink-0">
+                      <Icon className='text-[#2DD4BF] text-xl' />
+                    </div>
+                    <div>
+                      <h4 className="text-white font-medium">{item.label}</h4>
+                      <p className="text-gray-300">{item.value}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="text-white font-medium">{item.label}</h4>
-                    <p className="text-gray-300">{item.value}</p>
-                  </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
           </div>
         </div>

@@ -1,60 +1,73 @@
 
 import React from 'react';
 
+import { FiCheckCircle } from "react-icons/fi";
+
+import Badge from './ui/badge';
+
+import handshake from "../assets/handshake2.png";
+
+import ethereum from "../assets/technology/ethereum.png";
+import solana from "../assets/technology/solana.png";
+import polkadot from "../assets/technology/polkadot.png";
+import cosmos from "../assets/technology/cosmos.png";
+import binance from "../assets/technology/binance.png";
+import avalanche from "../assets/technology/avalanche.png";
+
 const TechnologyStackSection = () => {
   const technologies = [
-    { name: "Ethereum", color: "teal" },
-    { name: "Solana", color: "purple" },
-    { name: "Polkadot", color: "pink" },
-    { name: "Hyperledger", color: "blue" },
+    { name: "Ethereum", icon: ethereum },
+    { name: "Solana", icon: solana },
+    { name: "Polkadot", icon: polkadot },
+    { name: "Cosmos", icon: cosmos },
+    { name: "Binance Smart Chain", icon: binance },
+    { name: "Avalanche", icon: avalanche },
   ];
 
   const features = [
-    "Industry-leading security audits for all smart contracts",
-    "Scalable architecture for enterprise-grade applications",
-    "Seamless integration with existing business systems",
-    "Ongoing support and maintenance for all solutions"
+    "Advanced blockchain frameworks",
+    "Secure smart contract development",
+    "Cross-chain interoperability",
+    "Scalable architecture design",
+    "Enterprise-grade security",
+    "Optimized performance"
   ];
 
   return (
-    <section className="w-full bg-[#0a1522] py-20 border-t border-[#223043]">
-      <div className="container mx-auto px-4 max-w-[1440px]">
+    <section className="w-full bg-[#0F172A] py-20" id="technology">
+      <div className="container mx-auto px-4 max-w-[1400px]">
         <div className="text-center mb-16">
-          <p className="text-teal-400 font-medium mb-2 uppercase tracking-wider text-sm">TECHNOLOGY</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <Badge label="Our Technology" />
+          <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
             Cutting-Edge Blockchain Technology
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            We leverage the most advanced blockchain platforms to build powerful, secure, and scalable solutions.
+            We leverage the most advanced blockchain frameworks and technologies to deliver secure, scalable,
+            and innovative solutions.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="space-y-8">
+          <div className="space-y-8 bg-[#1F2937]/50 border border-[#374151] p-8 rounded-lg md:rounded-xl lg:rounded-2xl">
             <h3 className="text-2xl font-semibold text-white mb-4">Technology Stack</h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
               {technologies.map((tech, idx) => (
-                <div key={idx} className="bg-[#0b1623] border border-[#223043] rounded-lg p-4">
-                  <div className={`w-10 h-10 rounded-full bg-${tech.color}-500 bg-opacity-20 flex items-center justify-center mb-3`}>
-                    <span className={`text-${tech.color}-400 font-bold text-xl`}>
-                      {tech.name.charAt(0)}
-                    </span>
+                <div key={idx} className="p-4 flex flex-col items-center justiy-center">
+                  <div className="p-4 bg-[#374151]/50 rounded-lg w-fit h-fit">
+                    <img src={tech.icon} className="w-9 h-9" />
                   </div>
-                  <h4 className="text-white font-medium">{tech.name}</h4>
-                  <p className="text-gray-400 text-sm mt-1">Blockchain Platform</p>
+                  <h4 className="text-[#D1D5DB] font-medium text-center">{tech.name}</h4>
                 </div>
               ))}
             </div>
-            
+
             <div className="mt-8">
               <h3 className="text-2xl font-semibold text-white mb-4">Key Features</h3>
-              <ul className="space-y-3">
+              <ul className="grid grid-cols-2 gap-3">
                 {features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-2">
                     <div className="text-teal-400 mt-1">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 13L9 17L19 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
+                      <FiCheckCircle className="text-teal-400 text-base" />
                     </div>
                     <span className="text-gray-300">{feature}</span>
                   </li>
@@ -62,13 +75,12 @@ const TechnologyStackSection = () => {
               </ul>
             </div>
           </div>
-          
+
           <div className="rounded-lg overflow-hidden">
-            <img 
-              src="/lovable-uploads/c508fda5-5612-4d47-bb65-1120291c2997.png" 
-              alt="Blockchain handshake" 
+            <img
+              src={handshake}
+              alt="Blockchain"
               className="w-full h-full object-cover"
-              style={{ maxHeight: '400px' }}
             />
           </div>
         </div>
