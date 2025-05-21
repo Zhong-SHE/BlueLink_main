@@ -38,7 +38,7 @@ const ContactSection = () => {
   return (
     <section className="w-full bg-[#0F172A] py-10 md:py-20" id="contact">
       <div className="container mx-auto px-4 max-w-[1400px]">
-        <div className="text-center mb-16">
+        <div className="text-center mb-4 md:mb-12 lg:mb-16">
           <Badge label="Contact Us" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">Get in Touch</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
