@@ -46,7 +46,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-8">
             <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
             <form className="space-y-4" onSubmit={sendEmail}>
@@ -106,17 +106,18 @@ const ContactSection = () => {
             </form>
           </div>
 
-          <div>
+          <div className="mt-12">
             <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
-            <p className="text-gray-300 mb-8">
-              Have questions or want to discuss your blockchain project? Our team is ready to assist you.
+            <p className="text-gray-300 mb-12">
+              Let’s Build the Future of Blockchain together.<br />
+              At BlueLink Blockchain Services, we believe in meaningful connections. Whether you're an investor, developer, partner, or a curious blockchain enthusiast, we're here to help. Reach out to us and we’ll get back to you within 24–48 hours.
             </p>
 
             <div className="space-y-6">
               {[
-                { icon: MdOutlineMail, label: "Email Us", value: "Tech@bluelinkblockchain.com" },
-                { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
-                { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
+                { icon: MdOutlineMail, label: "Email Us", value: "tech@bluelinkblockchain.com" },
+                // { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
+                // { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
               ].map((item, idx) => {
                 const Icon = item.icon;
                 return (

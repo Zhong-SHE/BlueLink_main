@@ -22,9 +22,9 @@ const Footer = () => {
               economy.
             </p>
             <div className="flex flex-row gap-3 items-center">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <RiFacebookLine className="text-2xl text-gray-400 hover:opacity-80 cursor-pointer" />
-              </a>
+              </a> */}
               <a href="https://x.com/Bluelink2025" target="_blank" rel="noopener noreferrer">
                 <RiTwitterLine className="text-2xl text-gray-400 hover:opacity-80 cursor-pointer" />
               </a>
