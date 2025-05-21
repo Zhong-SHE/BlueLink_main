@@ -93,9 +93,9 @@ const Footer = () => {
             © 2025 BlueLink. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Cookie Policy</a>
+            <a href="../src/assets/docs/Privacy_Policy.pdf" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Privacy Policy</a>
+            <a href="../src/assets/docs/Terms_of_Service.pdf" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Terms of Service</a>
+            <a href="../src/assets/docs/Cookie_Policy.pdf" className="text-gray-400 hover:text-teal-400 transition-colors text-sm">Cookie Policy</a>
           </div>
         </div>
       </div>
