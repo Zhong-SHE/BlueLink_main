@@ -48,7 +48,7 @@ const TeamSection = () => {
   return (
     <section className="w-full bg-[#0F172A] py-20" id="team">
       <div className="container mx-auto px-4 max-w-[1400px]">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 ">
           <Badge label="Our Team" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
             Meet the Experts Behind BlueLink
@@ -73,7 +73,7 @@ const TeamSection = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-64 object-cover object-center"
+                    className="w-full h-80 object-cover object-top"
                   />
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-white">{member.name}</h3>
