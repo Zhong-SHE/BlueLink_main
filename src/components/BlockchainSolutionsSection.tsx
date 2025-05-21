@@ -64,7 +64,7 @@ const BlockchainSolutionsSection = () => {
   ];
 
   return (
-    <section className="w-full bg-[#0F172A] py-20" id="services">
+    <section className="w-full bg-[#0F172A] py-10 md:py-20" id="services">
       <div className="container mx-auto px-4 max-w-[1400px]">
         <div className="text-center mb-16">
           <Badge label="Our Services" />

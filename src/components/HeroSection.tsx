@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="w-full px-12 md:px-24 py-12 overflow-hidden" id="home">
       {/* Background effects */}
-      <div className="bg-[url('/image.png')] bg-cover bg-center max-[450px]:rounded-4xl rounded-full w-full h-full py-8 md:py-16">
+      <div className="bg-[url('/image.png')] bg-cover bg-center max-[450px]:rounded-4xl rounded-full w-full h-full py-10 md:py-20">
 
         <div className="container mx-auto px-4 relative z-10 max-w-[1400px]">
           <div className="text-center flex flex-col items-center gap-5 mx-auto">

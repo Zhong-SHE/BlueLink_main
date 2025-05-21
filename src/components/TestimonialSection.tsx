@@ -38,7 +38,7 @@ const TestimonialSection = () => {
   ];
 
   return (
-    <section className="w-full bg-[#0F172A] py-20" id="blog">
+    <section className="w-full bg-[#0F172A] py-10 md:py-20" id="blog">
       <div className="container mx-auto px-4 md:w-2/3 xl:w-1/2">
         <div className="text-center mb-16">
           <Badge label="Testimonials" />

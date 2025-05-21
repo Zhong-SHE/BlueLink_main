@@ -36,7 +36,7 @@ const BridgingTechnologySection: React.FC = () => {
   ];
 
   return (
-    <section className="w-full bg-[#0F172A] py-20" id="about">
+    <section className="w-full bg-[#0F172A] py-10 md:py-20" id="about">
       <div className="container mx-auto px-4 max-w-[1400px]">
         <div className="text-center flex flex-col items-center gap-4 mb-8">
           <Badge label="About Bluelink" />
