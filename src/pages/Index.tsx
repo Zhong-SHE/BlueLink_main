@@ -26,7 +26,7 @@ const Index = () => {
       <div className="w-full max-w-[var(--width-screen)] z-50 fixed top-0 backdrop-blur-xl">
         <Header />
       </div>
-      <main>
+      <main className="mt-12 md:mt-16 lg:mt-20">
         <div
           data-aos="fade-down"
           data-aos-duration="3000"
