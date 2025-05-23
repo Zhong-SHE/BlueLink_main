@@ -5,8 +5,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 const queryClient = new QueryClient();
+AOS.init({ duration: 1000, once: false, });
 
 const App = () => (
   <QueryClientProvider client={queryClient}>

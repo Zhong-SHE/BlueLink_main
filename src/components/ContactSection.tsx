@@ -6,6 +6,8 @@ import emailjs from 'emailjs-com';
 
 import { MdOutlineLocationOn, MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 
+import blueteam from "../assets/blueteam.png";
+
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -46,8 +48,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-4 sm:p-6 md:p-8 h-fit">
             <h3 className="text-2xl font-semibold text-white mb-6">Send Us a Message</h3>
             <form className="space-y-4" onSubmit={sendEmail}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -106,16 +108,16 @@ const ContactSection = () => {
             </form>
           </div>
 
-          <div className="mt-12">
+          <div>
             <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
-            <p className="text-gray-300 mb-12">
-              Let’s Build the Future of Blockchain together.<br />
+            <p className="text-gray-300 mb-4">
+              Let's Build the Future of Blockchain together.<br />
               At BlueLink Blockchain Services, we believe in meaningful connections. Whether you're an investor, developer, partner, or a curious blockchain enthusiast, we're here to help. Reach out to us and we’ll get back to you within 24–48 hours.
             </p>
 
-            <div className="space-y-6">
+            <div className="space-y-12">
               {[
-                { icon: MdOutlineMail, label: "Email Us", value: "tech@bluelinkblockchain.com" },
+                { icon: MdOutlineMail, label: "Email Us", value: "support@bluelinkblockchain.com" },
                 // { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
                 // { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
               ].map((item, idx) => {
@@ -132,6 +134,7 @@ const ContactSection = () => {
                   </div>
                 )
               })}
+              <img src={blueteam} className="rounded-md opacity-50 shadow-black shadow-2xl" />
             </div>
           </div>
         </div>
