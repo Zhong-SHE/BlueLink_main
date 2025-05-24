@@ -112,12 +112,12 @@ const ContactSection = () => {
             <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
             <p className="text-gray-300 mb-4">
               Let's Build the Future of Blockchain together.<br />
-              At BlueLink Blockchain Services, we believe in meaningful connections. Whether you're an investor, developer, partner, or a curious blockchain enthusiast, we're here to help. Reach out to us and we’ll get back to you within 24–48 hours.
+              At BlueLink Blockchain Services, we believe in meaningful connections. Whether you're an investor, developer, partner, or a curious blockchain enthusiast, we're here to help. Reach out to us and we'll get back to you within 24–48 hours.
             </p>
 
             <div className="space-y-12">
               {[
-                { icon: MdOutlineMail, label: "Email Us", value: "support@bluelinkblockchain.com" },
+                { icon: MdOutlineMail, label: "Email Us", value: "contact@bluelinkblockchain.com" },
                 // { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
                 // { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
               ].map((item, idx) => {

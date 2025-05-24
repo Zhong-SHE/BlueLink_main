@@ -16,9 +16,9 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       icon: TbQuote,
-      quote: "BlueLink’s developers are sharp, dependable, and a real asset to our blockchain projects.",
+      quote: "BlueLink's developers are sharp, dependable, and a real asset to our blockchain projects.",
       author: "Zhong",
-      position: "Contract Project Manager, SafeHaven Exchange",
+      position: "Contract Project Manager",
       avatar: zhong
     },
     {
