@@ -24,10 +24,10 @@ const ContactSection = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_hb9671a',    // Replace with your actual EmailJS service ID
-      'template_rsdusyt',   // Replace with your actual EmailJS template ID
+      'service_rwh667j',    // Replace with your actual EmailJS service ID
+      'template_aul2cij',   // Replace with your actual EmailJS template ID
       formData,
-      'y0wfrgb9j9U4XhuzF'        // Replace with your EmailJS public key (user ID)
+      'tRKe_AqaG1ube67ce'        // Replace with your EmailJS public key (user ID)
     )
       .then((result) => {
         alert('Message sent successfully!');
