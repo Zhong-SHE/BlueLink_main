@@ -7,6 +7,7 @@ import vladyslav from "../assets/member/Vladyslav.png";
 import zhong from "../assets/member/Zhong.jpg";
 import nikita from "../assets/member/Nikita.png";
 import andrew from "../assets/member/Andrew.png";
+import celeste from "../assets/member/Celeste.png";
 
 import {
   Carousel,
@@ -42,6 +43,11 @@ const TeamSection = () => {
       name: "Nikita",
       role: "Business Development Manager",
       image: nikita
+    },
+    {
+      name: "Celeste Paras",
+      role: "Chief Marketing Officer",
+      image: celeste
     }
   ];
 
