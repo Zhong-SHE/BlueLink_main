@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Coins, Database, BarChart3 } from 'lucide-react';
+import { Code, Coins, Database, BarChart3, CandlestickChart, Network, CreditCard, Gavel, ShieldCheck } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import {
   Carousel,
@@ -14,66 +14,54 @@ import Badge from './ui/badge';
 const BlockchainSolutionsSection = () => {
   const services = [
     {
-      icon: <Code className="w-6 h-6" />,
-      title: 'Smart Contract Development',
+      icon: <CandlestickChart className="w-6 h-6" />,
+      title: 'BlueLink Exchange',
       description:
-        'Custom smart contracts for automated, secure business processes and transactions.',
+        'Regulated trading of cryptocurrencies and tokenized stocks with T+1 settlement, powered by BlueLink Coin.',
+    },
+    {
+      icon: <Network className="w-6 h-6" />,
+      title: 'BlueLink Blockchain',
+      description:
+        'High-speed, EVM-compatible Layer 1 with 12,500+ TPS for DeFi and asset settlement.',
     },
     {
       icon: <Coins className="w-6 h-6" />,
-      title: 'DeFi Solutions',
+      title: 'BlueLink Token/Coin',
       description:
-        'Decentralized finance applications that revolutionize lending, borrowing, and trading.',
+        'ERC-20 BLT, migrating 1:1 to BlueLink Coin for trading, staking, and governance.',
     },
     {
-      icon: <Database className="w-6 h-6" />,
-      title: 'NFT Development',
+      icon: <CreditCard className="w-6 h-6" />,
+      title: 'BlueLink Banking',
       description:
-        'End-to-end NFT marketplace development with minting, trading, and auction capabilities.',
+        'Fiat-crypto integration with debit cards and real-time conversions via regulated partners.',
     },
     {
-      icon: <BarChart3 className="w-6 h-6" />,
-      title: 'Exchange Development',
+      icon: <Gavel className="w-6 h-6" />,
+      title: 'BlueLink Governance (DAO)',
       description:
-        'Secure and scalable centralized and decentralized exchange platforms (CEX/DEX).',
+        'Community-driven, transparent model for decision-making and protocol evolution.',
     },
     {
-      icon: <Code className="w-6 h-6" />,
-      title: 'Enterprise Blockchain',
+      icon: <ShieldCheck className="w-6 h-6" />,
+      title: 'BlueLink Security',
       description:
-        'Custom blockchain solutions for enterprise needs with enhanced security and scalability.',
+        'Audited contracts, MPC custody, and AI-driven detection for unmatched trust.',
     },
-    {
-      icon: <Coins className="w-6 h-6" />,
-      title: 'Blockchain Security',
-      description:
-        'Comprehensive security audits and solutions to protect your blockchain applications.',
-    },
-    {
-      icon: <Database className="w-6 h-6" />,
-      title: 'Cosmos SDK Development',
-      description:
-        'Building interoperable blockchain applications using the Cosmos SDK framework.',
-    },
-    {
-      icon: <BarChart3 className="w-6 h-6" />,
-      title: 'Tokenization Services',
-      description:
-        'Asset tokenization solutions for real estate, art, and other traditional assets.',
-    },
+    
   ];
 
   return (
     <section className="w-full bg-[#0F172A] py-10 md:py-20" id="services">
       <div className="container mx-auto px-4 max-w-[1400px]">
         <div className="text-center mb-4 md:mb-12 lg:mb-16">
-          <Badge label="Our Services" />
+          <Badge label="Our Ecosystem" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
-            Comprehensive Blockchain Solutions
+            Building the Future of Finance
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            We offer 19 specialized services to meet your blockchain needs, leveraging advanced frameworks to
-            deliver future-ready results.
+            BlueLink’s ecosystem is a comprehensive, interconnected platform designed to redefine global finance through innovation, compliance, and accessibility.
           </p>
         </div>
 

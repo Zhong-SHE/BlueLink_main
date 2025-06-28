@@ -6,7 +6,7 @@ import handshake from '../assets/handshake1.png';
 import { FaBullseye } from 'react-icons/fa6';
 import { TbBrandSafari } from "react-icons/tb";
 import { HiOutlineMap } from "react-icons/hi";
-
+import aboutvideo from '../assets/about.mp4';
 interface Feature {
   icon?: React.ElementType;
   title: string;
@@ -19,19 +19,19 @@ const BridgingTechnologySection: React.FC = () => {
       icon: FaBullseye,
       title: 'Our Mission',
       description:
-        "To bridge cutting-edge technology with real-world business needs, providing secure, scalable, and tailored solutions that drive efficiency, transparency, and growth.",
+        "To empower individuals and institutions to effortlessly trade, invest, and bank across digital and real-world assets, fostering transparency, security, and decentralized governance within a regulatory-aligned framework.",
     },
     {
       icon: TbBrandSafari,
       title: 'Our Vision',
       description:
-        'To be the global leader in blockchain innovation, empowering businesses across industries to harness the full potential of decentralized technologies.',
+        'To lead as the world’s most trusted blockchain ecosystem, harmonizing tokenized assets, cryptocurrencies, fiat banking, and community-driven governance into a high-performance, compliant infrastructure.',
     },
     {
       icon: HiOutlineMap,
       title: 'Our Journey',
       description:
-        "From delivering 19+ blockchain solutions globally, we're now building our own ecosystem—launching BlueLink Exchange, BlueLink Blockchain, and the native BlueLink Coin.",
+        "Having delivered 19+ blockchain solutions worldwide, BlueLink is now building a transformative ecosystem, launching the BlueLink Exchange, Blockchain, and Coin to redefine global finance with integrity and innovation.",
     },
   ];
 
@@ -41,22 +41,30 @@ const BridgingTechnologySection: React.FC = () => {
         <div className="text-center flex flex-col items-center mb-4 md:mb-8">
           <Badge label="About Bluelink" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
-            Bridging Cutting-Edge Technology with
-            <span className="text-white">{' '}Real-World Business Needs</span>
+            Bridging Traditional Finance with
+            <span className="text-white">{' '}Decentralized Innovation</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            BlueLink Blockchain Services is a global leader in delivering innovative blockchain solutions that
-            empower businesses to thrive in the decentralized economy.
+            BlueLink Blockchain Services is crafting a cutting-edge financial ecosystem, merging traditional finance with decentralized technology.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 flex items-center">
-          <div className="rounded-lg overflow-hidden">
-            <img
+          <div className="rounded-lg overflow-hidden border-4 border-sky-700 shadow-lg shadow-sky-400 outline outline-2 outline-offset-2 outline-sky-800">
+            <video
+             src={aboutvideo}
+             className="w-full h-full"
+             loop
+             controls
+            
+            >
+              About BlueLink
+            </video>
+            {/* <img
               src={handshake}
               alt="Blockchain Technology"
               className="w-full h-full  "
-            />
+            /> */}
           </div>
 
           <div className="space-y-8">

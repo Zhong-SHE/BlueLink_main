@@ -1,6 +1,6 @@
-import React from 'react';
-import { Input } from './ui/input';
-import { Button } from './ui/button';
+import React from "react";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 import logo from "../assets/logo.png";
 import message from "../assets/message.png";
@@ -9,7 +9,10 @@ import {
   RiFacebookLine,
   RiTwitterLine,
   RiLinkedinLine,
-  RiInstagramLine
+  RiInstagramLine,
+  RiTelegramLine,
+  RiDiscordLine,
+  RiGithubLine,
 } from "react-icons/ri";
 
 const Footer = () => {
@@ -21,48 +24,96 @@ const Footer = () => {
           <div>
             <img src={logo} alt="BlueLink Logo" className="h-12 mb-4" />
             <p className="text-sm mb-4">
-              Global leader in delivering innovative blockchain solutions that empower businesses to thrive in the decentralized economy.
+              Global leader in delivering innovative blockchain solutions that
+              empower businesses to thrive in the decentralized economy.
             </p>
             <div className="flex gap-4 mt-2">
               {/* Uncomment Facebook if needed */}
               {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <RiFacebookLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a> */}
-              <a href="https://x.com/Bluelink2025" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://x.com/Bluelink2025"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <RiTwitterLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
-              <a href="https://www.linkedin.com/company/bluelink-blockchain-services" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/company/bluelink-blockchain-services"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <RiLinkedinLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
-              <a href="https://www.instagram.com/bluelinkblockchain/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/bluelinkblockchain/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <RiInstagramLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
+              </a>
+              <a
+                href="https://github.com/BlueLink-Blockchain-Services"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RiGithubLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
+              </a>
+              <a
+                href="https://t.me/bluelinkblockchain"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RiTelegramLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
+              </a>
+              <a
+                href="https://discord.gg/sB7exbyR"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <RiDiscordLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
             </div>
           </div>
 
           {/* Quick Links and Services */}
-          {[{
-            title: "Quick Links",
-            links: ["About Us", "Services", "Technology", "Our Team", "Contact"],
-            hrefs: ["about", "services", "technology", "team", "contact"]
-          }, {
-            title: "Services",
-            links: [
-              "Smart Contract Development",
-              "DeFi Solutions",
-              "NFT Development",
-              "Exchange Development",
-              "Enterprise Blockchain"
-            ],
-            hrefs: []
-          }].map((section, idx) => (
+          {[
+            {
+              title: "Quick Links",
+              links: [
+                "About Us",
+                "Services",
+                "Technology",
+                "Our Team",
+                "Contact",
+              ],
+              hrefs: ["about", "services", "technology", "team", "contact"],
+            },
+            {
+              title: "Services",
+              links: [
+                "Smart Contract Development",
+                "DeFi Solutions",
+                "NFT Development",
+                "Exchange Development",
+                "Enterprise Blockchain",
+              ],
+              hrefs: [],
+            },
+          ].map((section, idx) => (
             <div key={idx}>
-              <h4 className="text-white font-medium text-lg mb-4">{section.title}</h4>
+              <h4 className="text-white font-medium text-lg mb-4">
+                {section.title}
+              </h4>
               <ul className="space-y-2">
                 {section.links.map((link, i) => (
                   <li key={i}>
                     {section.hrefs.length > 0 ? (
-                      <a href={`#${section.hrefs[i]}`} className="text-gray-400 hover:text-teal-400 transition-colors text-sm">
+                      <a
+                        href={`#${section.hrefs[i]}`}
+                        className="text-gray-400 hover:text-teal-400 transition-colors text-sm"
+                      >
                         {link}
                       </a>
                     ) : (
@@ -101,9 +152,24 @@ const Footer = () => {
             © 2025 BlueLink. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="/docs/Privacy_Policy.pdf" className="text-gray-400 hover:text-teal-400 transition-colors">Privacy Policy</a>
-            <a href="/docs/Terms_of_Service.pdf" className="text-gray-400 hover:text-teal-400 transition-colors">Terms of Service</a>
-            <a href="/docs/Cookie_Policy.pdf" className="text-gray-400 hover:text-teal-400 transition-colors">Cookie Policy</a>
+            <a
+              href="/docs/Privacy_Policy.pdf"
+              className="text-gray-400 hover:text-teal-400 transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="/docs/Terms_of_Service.pdf"
+              className="text-gray-400 hover:text-teal-400 transition-colors"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="/docs/Cookie_Policy.pdf"
+              className="text-gray-400 hover:text-teal-400 transition-colors"
+            >
+              Cookie Policy
+            </a>
           </div>
         </div>
       </div>

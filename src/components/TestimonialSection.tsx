@@ -10,30 +10,31 @@ import {
 import Badge from './ui/badge';
 import { TbQuote } from 'react-icons/tb';
 
-import zhong from "../assets/member/Zhong.jpg";
-
+import stephan from "../assets/partners/stephan.jpeg";
+import david from "../assets/partners/david.jpeg";
+import laura from "../assets/partners/laura.jpeg";
 const TestimonialSection = () => {
   const testimonials = [
     {
       icon: TbQuote,
-      quote: "BlueLink's developers are sharp, dependable, and a real asset to our blockchain projects.",
-      author: "Zhong",
-      position: "Co-Founder",
-      avatar: zhong
+      quote: "Great insights on addressing key challenges in the blockchain space! Focusing on creating a secure and transparent ecosystem is crucial.",
+      author: "Stephan K",
+      position: "Group CEO at Scancruit",
+      avatar: stephan
     },
     {
       icon: TbQuote,
-      quote: "The team's expertise in DeFi development helped us launch our platform in record time. Their ongoing support has been invaluable.",
-      author: "Michael Chen",
-      position: "Founder at FinBlock",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=faces"
+      quote: "Innovative approach to blockchain. Excited to see its impact.",
+      author: "David Galperin",
+      position: "Founder & CEO at SMPS Marketing",
+      avatar: david
     },
     {
       icon: TbQuote,
-      quote: "Working with BlueLink was a seamless experience. Their smart contract audit identified critical issues before launch, potentially saving us millions.",
-      author: "Jessica Miller",
-      position: "CTO at SecureAssets",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces"
+      quote: "BlueLink’s banking system demo impressed us with its seamless fiat-crypto integration, paving the way for real-time payments and user-friendly financial services.",
+      author: "Laura",
+      position: "Financial Director at LockTree Capital",
+      avatar: laura
     }
   ];
 
@@ -43,10 +44,10 @@ const TestimonialSection = () => {
         <div className="text-center mb-4 md:mb-12 lg:mb-16">
           <Badge label="Testimonials" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">
-            What Our Clients Say
+            What Our Partners Say
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Hear from businesses that have transformed their operations with our blockchain solutions.
+            BlueLink’s exchange and visionary roadmap showcase our transformative ecosystem and robust security, inspiring early partners and beta testers.
           </p>
         </div>
 

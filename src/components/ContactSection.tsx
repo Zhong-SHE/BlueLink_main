@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import Badge from './ui/badge';
 import emailjs from 'emailjs-com';
 
-import { MdOutlineLocationOn, MdOutlineMail, MdOutlinePhone } from "react-icons/md";
+import { MdOutlineCurrencyExchange, MdOutlineLocationOn, MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 
 import blueteam from "../assets/blueteam.png";
 
@@ -44,7 +44,7 @@ const ContactSection = () => {
           <Badge label="Contact Us" />
           <h2 className="text-3xl md:text-4xl font-bold text-white my-4">Get in Touch</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Ready to unlock blockchain's potential for your business? Reach out to our team today.
+            Ready to explore BlueLink’s innovative blockchain ecosystem? Connect with us to bring your vision to life.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ const ContactSection = () => {
                 Message
                 <textarea
                   name="message"
-                  placeholder="Tell us about your project..."
+                  placeholder="Share your investment interest or questions"
                   rows={4}
                   onChange={handleChange}
                   value={formData.message}
@@ -109,15 +109,16 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-white mb-4">Contact Information</h3>
+            <h3 className="text-2xl font-semibold text-white mb-4">Contact US</h3>
             <p className="text-gray-300 mb-4">
-              Let's Build the Future of Blockchain together.<br />
-              At BlueLink Blockchain Services, we believe in meaningful connections. Whether you're an investor, developer, partner, or a curious blockchain enthusiast, we're here to help. Reach out to us and we'll get back to you within 24–48 hours.
+              Build the Future with BlueLink<br />
+              Whether you’re an investor, developer, or blockchain enthusiast, we’re here to collaborate. Reach out, and we’ll respond within 24–48 hours.
             </p>
 
             <div className="space-y-12">
               {[
                 { icon: MdOutlineMail, label: "Email Us", value: "contact@bluelinkblockchain.com" },
+                { icon: MdOutlineCurrencyExchange, label: "Investor Portal", value: "www.ico.bluelinkblockchain.com" },
                 // { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
                 // { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
               ].map((item, idx) => {

@@ -18,8 +18,7 @@ const HeroSection = () => {
                 <span className="text-[#2DD4BF] block md:inline">Today's Success</span>
               </h1>
               <p className="text-gray-300 text-sm md:text-base lg:text-lg w-3/4 sm:w-2/3 mx-auto">
-                BlueLink Blockchain Services is a global leader in delivering innovative blockchain solutions that
-                empower businesses to thrive in the decentralized economy.
+                BlueLink is a next-generation blockchain ecosystem bridging traditional finance and Web3—offering tokenized assets, compliant crypto banking, and high-speed decentralised infrastructure.
               </p>
             </div>
           </div>
