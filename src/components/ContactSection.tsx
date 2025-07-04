@@ -118,7 +118,7 @@ const ContactSection = () => {
             <div className="space-y-12">
               {[
                 { icon: MdOutlineMail, label: "Email Us", value: "contact@bluelinkblockchain.com" },
-                { icon: MdOutlineCurrencyExchange, label: "Investor Portal", value: "www.ico.bluelinkblockchain.com" },
+                { icon: MdOutlineCurrencyExchange, label: "Investor Portal", value: "www.presale.bluelinkblockchain.com" },
                 // { icon: MdOutlinePhone, label: "Call Us", value: "+1 (954) 603-7860" },
                 // { icon: MdOutlineLocationOn, label: "Visit Us", value: "Wilmington, DE, USA" }
               ].map((item, idx) => {

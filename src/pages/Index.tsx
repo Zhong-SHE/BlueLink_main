@@ -62,13 +62,13 @@ const Index = () => {
         >
           <TestimonialSection />
         </div>
-        {/* <div
+        <div
           data-aos="fade-up"
           data-aos-duration="3000"
           className="scroll-mt-32"
         >
           <TeamSection />
-        </div> */}
+        </div>
         <div
           data-aos="fade-up"
           data-aos-duration="3000"

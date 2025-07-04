@@ -27,6 +27,9 @@ const Footer = () => {
               Global leader in delivering innovative blockchain solutions that
               empower businesses to thrive in the decentralized economy.
             </p>
+            <p className="text-sm text-blue-300">
+              Dubai & British Virgin Islands | Regulated & Compliant
+            </p>
             <div className="flex gap-4 mt-2">
               {/* Uncomment Facebook if needed */}
               {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -153,25 +156,33 @@ const Footer = () => {
           </p>
           <div className="flex space-x-6">
             <a
-              href="/docs/Privacy_Policy.pdf"
+              href="/docs/BlueLink_Privacy_Policy.pdf"
+              target="_blank"
               className="text-gray-400 hover:text-teal-400 transition-colors"
             >
               Privacy Policy
             </a>
             <a
-              href="/docs/Terms_of_Service.pdf"
+              href="/docs/BlueLink_Terms_of_Service.pdf"
+              target="_blank"
               className="text-gray-400 hover:text-teal-400 transition-colors"
             >
               Terms of Service
             </a>
             <a
-              href="/docs/Cookie_Policy.pdf"
+              href="/docs/BlueLink_Cookie_Policy.pdf"
+              target="_blank"
               className="text-gray-400 hover:text-teal-400 transition-colors"
             >
               Cookie Policy
             </a>
           </div>
         </div>
+        <p className="text-gray-500 text-xs text-center mt-4 px-4 max-w-4xl mx-auto">
+          Disclaimer: BlueLink provides blockchain infrastructure and services;
+          not intended as financial or investment advice and may be restricted
+          in some jurisdictions.
+        </p>
       </div>
     </footer>
   );
