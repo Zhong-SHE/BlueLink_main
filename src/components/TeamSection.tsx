@@ -8,6 +8,7 @@ import andrew from "../assets/member/Andrew.png";
 import celeste from "../assets/member/Celeste.png";
 import rose from "../assets/member/rose.png";
 import takao from "../assets/member/Takao.png";
+import demetrich from "../assets/member/Demetrich.jpg";
 
 import {
   Carousel,
@@ -24,6 +25,12 @@ const TeamSection = () => {
       role: "Chief Executive Officer",
       image: mykhailo,
       linkedin: "https://www.linkedin.com/in/mykhailo-semeniuk-aa6495340/",
+    },
+       {
+      name: "Demetrich Stokes",
+      role: "Co-Founder",
+      image: demetrich,
+      linkedin: "https://www.linkedin.com",
     },
     {
       name: "Vladyslav Shevchenko",
