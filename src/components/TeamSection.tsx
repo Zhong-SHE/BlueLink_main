@@ -3,7 +3,6 @@ import Badge from "./ui/badge";
 import { FaLinkedin } from "react-icons/fa6";
 import mykhailo from "../assets/member/Mykhailo.png";
 import vladyslav from "../assets/member/Vladyslav.png";
-import zhong from "../assets/member/Zhong.jpg";
 import nikita from "../assets/member/Nikita.png";
 import andrew from "../assets/member/Andrew.png";
 import celeste from "../assets/member/Celeste.png";
@@ -34,18 +33,18 @@ const TeamSection = () => {
     },
     {
       name: "Celeste Paras",
-      role: "Chief Marketing Officer",
+      role: "COO & CMO",
       image: celeste,
       linkedin: "https://www.linkedin.com/in/celesteparas/",
     },
     {
       name: "Takao",
-      role: "Technical Lead",
+      role: "Chief Technology Officer",
       image: takao,
       linkedin:"https://www.linkedin.com/in/takao-kato-a23456306/",
     },
     {
-      name: "Kian (Rose)",
+      name: "Caleb Lin",
       role: "Product Manager",
       image: rose,
       linkedin:"https://www.linkedin.com/in/kian-lip-yap-253b3b372"
