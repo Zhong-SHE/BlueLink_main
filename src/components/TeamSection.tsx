@@ -5,7 +5,7 @@ import mykhailo from "../assets/member/Mykhailo.png";
 import vladyslav from "../assets/member/Vladyslav.png";
 import nikita from "../assets/member/Nikita.png";
 import andrew from "../assets/member/Andrew.png";
-import celeste from "../assets/member/Celeste.png";
+import celeste from "../assets/member/Celeste.jpg";
 import rose from "../assets/member/rose.png";
 import takao from "../assets/member/Takao.png";
 import demetrich from "../assets/member/Demetrich.jpg";
