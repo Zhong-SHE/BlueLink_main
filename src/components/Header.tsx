@@ -39,10 +39,10 @@ const Header = () => {
 <div className="hidden md:flex gap-3">
   {/* Whitepaper Button */}
   <a
-    href="docs/BlueLink_Whitepaper_v14.pdf"
+    href="docs/BlueLink_Whitepaper.pdf"
     download
     rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-teal-700 hover:from-teal-600 hover:to-teal-800 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-xl transform active:scale-95 focus:outline-none"
+    className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-teal-700 hover:from-teal-600 hover:to-teal-800 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out shadow-xl hover:shadow-xl transform active:scale-95 focus:outline-none"
   >
     <FiDownload className="text-xl" />
     Whitepaper
