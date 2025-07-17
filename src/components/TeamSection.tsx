@@ -9,6 +9,7 @@ import celeste from "../assets/member/Celeste.jpg";
 import rose from "../assets/member/rose.png";
 import takao from "../assets/member/Takao.png";
 import demetrich from "../assets/member/Demetrich.jpg";
+import shahi from "../assets/member/shahi.jpg";
 
 import {
   Carousel,
@@ -33,16 +34,16 @@ const TeamSection = () => {
       linkedin: "https://www.linkedin.com",
     },
     {
-      name: "Vladyslav Shevchenko",
-      role: "Chief Financial Officer",
-      image: vladyslav,
-      linkedin: "https://www.linkedin.com/in/vladyslav-shevchenko-19851105dev/",
-    },
-    {
       name: "Celeste Paras",
       role: "COO & CMO",
       image: celeste,
       linkedin: "https://www.linkedin.com/in/celesteparas/",
+    },
+       {
+      name: "Vladyslav Shevchenko",
+      role: "Chief Financial Officer",
+      image: vladyslav,
+      linkedin: "https://www.linkedin.com/in/vladyslav-shevchenko-19851105dev/",
     },
     {
       name: "Takao",
@@ -50,11 +51,23 @@ const TeamSection = () => {
       image: takao,
       linkedin:"https://www.linkedin.com/in/takao-kato-a23456306/",
     },
+            {
+      name: "Shahid Jamal",
+      role: "Crypto Legal Advisor",
+      image: shahi,
+      linkedin: "https://www.linkedin.com/",
+    },
     {
       name: "Caleb Lin",
       role: "Product Manager",
       image: rose,
       linkedin:"https://www.linkedin.com/in/kian-lip-yap-253b3b372"
+    },
+        {
+      name: "Nikita Dwivedi",
+      role: "Business Development Manager",
+      image: nikita,
+      linkedin: "https://www.linkedin.com/in/nikita-dwivedi-2b2151171/",
     },
     {
       name: "Andrew D.",
@@ -62,12 +75,8 @@ const TeamSection = () => {
       image: andrew,
       linkedin: "https://www.linkedin.com/in/andrew-dyer-b6484a358",
     },
-    {
-      name: "Nikita Dwivedi",
-      role: "Business Development Manager",
-      image: nikita,
-      linkedin: "https://www.linkedin.com/in/nikita-dwivedi-2b2151171/",
-    },
+
+
   ];
 
   return (
