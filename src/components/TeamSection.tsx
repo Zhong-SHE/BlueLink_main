@@ -31,7 +31,7 @@ const TeamSection = () => {
       name: "Demetrich Stokes",
       role: "Co-Founder",
       image: demetrich,
-      linkedin: "https://www.linkedin.com",
+      linkedin: "https://www.linkedin.com/in/demetrichstokes/",
     },
     {
       name: "Celeste Paras",
@@ -55,13 +55,13 @@ const TeamSection = () => {
       name: "Shahid Jamal",
       role: "Crypto Legal Advisor",
       image: shahi,
-      linkedin: "https://www.linkedin.com/",
+      linkedin: "https://www.linkedin.com/in/cryptocurrencylawyer/",
     },
     {
       name: "Caleb Lin",
       role: "Product Manager",
       image: rose,
-      linkedin:"https://www.linkedin.com/in/kian-lip-yap-253b3b372"
+      linkedin:"https://www.linkedin.com/in/caleb-zhiliang-lin-853420373/"
     },
         {
       name: "Nikita Dwivedi",
@@ -120,7 +120,7 @@ const TeamSection = () => {
                       {member.name}
                     </h3>
                     <p className="text-teal-400">{member.role}</p>
-                    {/* <a
+                    <a
                       href={member.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -128,7 +128,7 @@ const TeamSection = () => {
                     >
                       <FaLinkedin className="mr-1 text-2xl" />
                       
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </CarouselItem>

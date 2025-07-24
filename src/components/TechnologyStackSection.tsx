@@ -4,7 +4,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 import Badge from "./ui/badge";
 
-import handshake from "../assets/handshake2.png";
+import handshake from "../assets/handshake2.jpg";
 
 import ethereum from "../assets/technology/ethereum.png";
 import solana from "../assets/technology/solana.png";
@@ -89,7 +89,7 @@ const TechnologyStackSection = () => {
             <img
               src={handshake}
               alt="Blockchain"
-              className="w-full h-full object-cover brightness-50"
+              className="w-full h-full object-cover brightness-60"
             />
           </div>
         </div>
