@@ -71,7 +71,7 @@ const Footer = () => {
                 <RiTelegramLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://discord.gg/sB7exbyR"
+                href="https://discord.gg/88g476WK"
                 target="_blank"
                 rel="noopener noreferrer"
               >
