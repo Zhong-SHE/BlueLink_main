@@ -21,15 +21,15 @@ import {
 
 const TeamSection = () => {
   const team = [
-    {
-      name: "Mykhailo Semeniuk",
-      role: "Chief Executive Officer",
-      image: mykhailo,
-      linkedin: "https://www.linkedin.com/in/mykhailo-semeniuk-aa6495340/",
-    },
+    // {
+    //   name: "Mykhailo Semeniuk",
+    //   role: "Chief Executive Officer",
+    //   image: mykhailo,
+    //   linkedin: "https://www.linkedin.com/in/mykhailo-semeniuk-aa6495340/",
+    // },
        {
       name: "Demetrich Stokes",
-      role: "Co-Founder",
+      role: "Founder",
       image: demetrich,
       linkedin: "https://www.linkedin.com/in/demetrichstokes/",
     },
@@ -39,42 +39,42 @@ const TeamSection = () => {
       image: celeste,
       linkedin: "https://www.linkedin.com/in/celesteparas/",
     },
-       {
-      name: "Vladyslav Shevchenko",
-      role: "Chief Financial Officer",
-      image: vladyslav,
-      linkedin: "https://www.linkedin.com/in/vladyslav-shevchenko-19851105dev/",
-    },
-    {
-      name: "Takao",
-      role: "Chief Technology Officer",
-      image: takao,
-      linkedin:"https://www.linkedin.com/in/takao-kato-a23456306/",
-    },
+    //    {
+    //   name: "Vladyslav Shevchenko",
+    //   role: "Chief Financial Officer",
+    //   image: vladyslav,
+    //   linkedin: "https://www.linkedin.com/in/vladyslav-shevchenko-19851105dev/",
+    // },
+    // {
+    //   name: "Takao",
+    //   role: "Chief Technology Officer",
+    //   image: takao,
+    //   linkedin:"https://www.linkedin.com/in/takao-kato-a23456306/",
+    // },
             {
       name: "Shahid Jamal",
       role: "Crypto Legal Advisor",
       image: shahi,
       linkedin: "https://www.linkedin.com/in/cryptocurrencylawyer/",
     },
-    {
-      name: "Caleb Lin",
-      role: "Product Manager",
-      image: rose,
-      linkedin:"https://www.linkedin.com/in/caleb-zhiliang-lin-853420373/"
-    },
+    // {
+    //   name: "Caleb Lin",
+    //   role: "Product Manager",
+    //   image: rose,
+    //   linkedin:"https://www.linkedin.com/in/caleb-zhiliang-lin-853420373/"
+    // },
         {
       name: "Nikita Dwivedi",
       role: "Business Development Manager",
       image: nikita,
       linkedin: "https://www.linkedin.com/in/nikita-dwivedi-2b2151171/",
     },
-    {
-      name: "Andrew D.",
-      role: "Lead Blockchain Engineer",
-      image: andrew,
-      linkedin: "https://www.linkedin.com/in/andrew-dyer-b6484a358",
-    },
+    // {
+    //   name: "Andrew D.",
+    //   role: "Lead Blockchain Engineer",
+    //   image: andrew,
+    //   linkedin: "https://www.linkedin.com/in/andrew-dyer-b6484a358",
+    // },
 
 
   ];
