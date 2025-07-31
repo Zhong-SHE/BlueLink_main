@@ -45,7 +45,7 @@ const BridgingTechnologySection: React.FC = () => {
             <span className="text-white">{' '}Decentralized Innovation</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            BlueLink Blockchain Services is crafting a cutting-edge financial ecosystem, merging traditional finance with decentralized technology.
+            BlueLink Blockchain Services Ltd is crafting a cutting-edge financial ecosystem, merging traditional finance with decentralized technology.
           </p>
         </div>
 

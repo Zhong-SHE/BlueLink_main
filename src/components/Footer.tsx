@@ -28,7 +28,7 @@ const Footer = () => {
               empower businesses to thrive in the decentralized economy.
             </p>
             <p className="text-sm text-blue-300">
-              Dubai & British Virgin Islands | Regulated & Compliant
+              Dubai & British Virgin Islands | Regulated & Compliant  
             </p>
             <div className="flex gap-4 mt-2">
               {/* Uncomment Facebook if needed */}
@@ -78,6 +78,7 @@ const Footer = () => {
                 <RiDiscordLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
             </div>
+            <p className="py-5">1st Floor, Columbus Centre, P.O. Box 2283, Road Town, Tortola, British Virgin Islands</p>
           </div>
 
           {/* Quick Links and Services */}
