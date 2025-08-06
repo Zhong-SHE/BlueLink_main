@@ -34,19 +34,18 @@ const HeroSection = () => {
                   className="whitespace-nowrap text-[#FACC15] font-semibold text-sm md:text-base lg:text-lg absolute"
                   style={{ animation: "slide 10s linear infinite" }}
                 >
-                  🚀 $BLT Presale Is Now Live – Join Early to Get the Best
-                  Price!          
+                  🚀 $BLT PinkSale FairLaunch Coming Soon          
                 </div>
               </div>
 
               {/* CTA Button */}
               <a
-                href="https://presale.bluelinkblockchain.com"
+                href="https://www.pinksale.finance/launchpad/ethereum/0x1f9c5a008c55Ede9D55b35Bae0d2e6deEDC60291"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-block bg-gradient-to-r from-[#b8e6e9] to-[#1a9c89] hover:from-[#3FE3CC] hover:to-[#22B3A2] text-white font-bold text-base md:text-lg px-8 py-3 rounded-full transition-all duration-500 shadow-xl hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
               >
-                🚀 Join Now
+                🚀 Launch on Pinksale
               </a>
 
               {/* Description */}
