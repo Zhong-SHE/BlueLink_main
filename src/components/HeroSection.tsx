@@ -34,7 +34,7 @@ const HeroSection = () => {
                   className="whitespace-nowrap text-[#FACC15] font-semibold text-sm md:text-base lg:text-lg absolute"
                   style={{ animation: "slide 10s linear infinite" }}
                 >
-                  🚀 $BLT PinkSale FairLaunch Coming Soon          
+                  🚀 $BLT PinkSale FairLaunch is Live        
                 </div>
               </div>
 
