@@ -3,6 +3,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Badge from "./ui/badge";
+import logo from "@/assets/Logo-BLT.png";
 
 const HeroSection = () => {
   return (
@@ -24,30 +25,62 @@ const HeroSection = () => {
                   Today's Success
                 </span>
               </h1>
-                            <p className="text-gray-300 text-sm md:text-base lg:text-lg max-w-[800px] mt-2">
-                 BlueLink bridges traditional finance and Web3 — enabling secure trading, tokenized assets, and fast, compliant blockchain infrastructure.
+              <p className="text-gray-300 text-sm md:text-base lg:text-lg max-w-[800px] mt-2">
+                BlueLink bridges traditional finance and Web3 — enabling secure trading, tokenized assets, and fast, compliant blockchain infrastructure.
               </p>
 
               {/* Presale Notification */}
-              <div className="overflow-hidden w-full max-w-[600px] h-10 rounded-md relative">
+              {/* <div className="overflow-hidden w-full max-w-[600px] h-10 rounded-md relative">
                 <div
                   className="whitespace-nowrap text-[#FACC15] font-semibold text-sm md:text-base lg:text-lg absolute"
                   style={{ animation: "slide 10s linear infinite" }}
                 >
                   🚀 $BLT PinkSale FairLaunch is Live        
                 </div>
-              </div>
+              </div> */}
 
               {/* CTA Button */}
-              <a
-                href="https://www.pinksale.finance/launchpad/ethereum/0x1f9c5a008c55Ede9D55b35Bae0d2e6deEDC60291"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-block bg-gradient-to-r from-[#b8e6e9] to-[#1a9c89] hover:from-[#3FE3CC] hover:to-[#22B3A2] text-white font-bold text-base md:text-lg px-8 py-3 rounded-full transition-all duration-500 shadow-xl hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
-              >
-                🚀 Launch on Pinksale
-              </a>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <a
+                  href="https://exchange.bluelinkblockchain.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-3 inline-flex items-center justify-center text-[#1a9c89] hover:text-[#3FE3CC] font-semibold text-xs md:text-sm px-6 py-2 rounded-lg transition-all duration-300 border border-[#1a9c89] hover:border-[#3FE3CC] focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
+                >
+                  <img src="https://img.icons8.com/ios-filled/20/1a9c89/exchange.png" alt="Exchange Icon" class="mr-2" />
+                  BlueLink Exchange
+                </a>
 
+                <a
+                  href="https://test-explorer.bluelinkblockchain.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-3 inline-flex items-center justify-center text-[#1a9c89] hover:text-[#3FE3CC] font-semibold text-xs md:text-sm px-6 py-2 rounded-lg transition-all duration-300 border border-[#1a9c89] hover:border-[#3FE3CC] focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
+                >
+                  <img src="https://img.icons8.com/ios-filled/20/1a9c89/blockchain.png" alt="Blockchain Icon" class="mr-2" />
+                  BlueLink Blockchain
+                </a>
+
+                <a
+                  href="https://test-faucet.bluelinkblockchain.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-3 inline-flex items-center justify-center text-[#1a9c89] hover:text-[#3FE3CC] font-semibold text-xs md:text-sm px-6 py-2 rounded-lg transition-all duration-300 border border-[#1a9c89] hover:border-[#3FE3CC] focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
+                >
+                  <img src="https://img.icons8.com/ios-filled/20/1a9c89/water.png" alt="Faucet Icon" class="mr-2" />
+                  $BLT Testnet Faucet
+                </a>
+
+                <a
+                  href="https://etherscan.io/address/0xb1C6b03969b8b2c98DF17Dd0852c1391691932f8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-3 inline-flex items-center justify-center text-[#1a9c89] hover:text-[#3FE3CC] font-semibold text-xs md:text-sm px-6 py-2 rounded-lg transition-all duration-300 border border-[#1a9c89] hover:border-[#3FE3CC] focus:outline-none focus:ring-4 focus:ring-[#2DD4BF]/50"
+                >
+                  <img src={logo} alt="BLT Icon" class="mr-2 w-4 h-4" />
+                  BlueLink Token - $BLT
+                </a>
+              </div>
               {/* Description */}
 
             </div>
