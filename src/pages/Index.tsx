@@ -14,6 +14,7 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
 import "aos/dist/aos.css";
+import Partners from '@/components/Partners';
 
 const Index = () => {
   useEffect(() => {
@@ -54,6 +55,13 @@ const Index = () => {
           className="scroll-mt-32"
         >
           <TechnologyStackSection />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="scroll-mt-32"
+        >
+          <Partners />
         </div>
         <div
           data-aos="fade-down"
