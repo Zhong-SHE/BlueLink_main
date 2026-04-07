@@ -43,7 +43,7 @@ const Footer = () => {
               {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <RiFacebookLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a> */}
-              <a
+              {/* <a
                 href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <RiDiscordLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
-              </a>
+              </a> */}
             </div>
             <p className="py-5">
               1st Floor, Columbus Centre, P.O. Box 2283, Road Town, Tortola,
