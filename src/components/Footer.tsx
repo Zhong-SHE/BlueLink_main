@@ -44,42 +44,42 @@ const Footer = () => {
                 <RiFacebookLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a> */}
               <a
-                href="https://x.com/Bluelink2025"
+                href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RiTwitterLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://www.linkedin.com/company/bluelink-blockchain-services"
+                href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RiLinkedinLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://www.instagram.com/bluelinkblockchain/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RiInstagramLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://github.com/BlueLink-Blockchain-Services"
+                href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RiGithubLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://t.me/bluelinkblockchain"
+                href="https://t.me"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RiTelegramLine className="text-2xl text-gray-400 hover:text-teal-400 transition" />
               </a>
               <a
-                href="https://discord.gg/GNMtz5Jz"
+                href="https://discord.gg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
